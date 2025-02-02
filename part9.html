@@ -46,7 +46,7 @@
         this.load.image('sky', 'assets/sky.png');
         this.load.image('ground', 'assets/platform.png');
         this.load.image('star', 'assets/star.png');
-        this.load.image('bomb', 'assets/bomb.png');
+        this.load.image('bomb', 'assets/New Piskel (8).png');
         this.load.spritesheet('dude', 'assets/dude.png', { frameWidth: 32, frameHeight: 48 });
     }
 
@@ -143,6 +143,8 @@
         score += 10;
         scoreText.setText('Score: ' + score);
     }
+    bomb = this.physics.add.sprite(100, 450, 'bomb');
+
 
 </script>
 
